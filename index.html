@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>IKA DCS BINUS</title>
+    <meta charset="UTF-8">
+    <title>IKA DCS BINUS</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .row {
+        display: flex;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 1rem 0;
+        gap: 1rem;
+      }
+      .box {
+        border-radius: 12px;
+        padding: 1rem;
+        min-width: 200px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        color: white;
+      }
+      .animate {
+        animation: scroll 30s linear infinite;
+      }
+      .reverse {
+        animation-direction: reverse;
+      }
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-100%); }
+      }
+      .color1 { background: #1e3a8a; }
+      .color2 { background: #9333ea; }
+      .color3 { background: #059669; }
+      .color4 { background: #f59e0b; }
+      .color5 { background: #ef4444; }
+      .color6 { background: #14b8a6; }
+      .color7 { background: #8b5cf6; }
+      .color8 { background: #f97316; }
+      .color9 { background: #10b981; }
+      .color10 { background: #3b82f6; }
+    </style>
 </head>
 <body>
-  <h1>Selamat Datang di Website Resmi IKA DCS BINUS</h1>
-  <p>Website ini sedang dalam tahap pengembangan.</p>
+    <header>
+        <img src="img/logo-ikadcs.png" alt="Logo IKA DCS" class="logo">
+        <h1>IKA DCS BINUS</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="struktur.html">Struktur Pengurus</a>
+        </nav>
+    </header>
+
+    <!-- START: Carousel Warna-Warni -->
+    <section>
+      <h2 style="color:white;text-align:center;margin-top:2rem;">Struktur Organisasi IKA DCS 2025–2028</h2>
+
+      <div class="row animate">
+        <div class="box color1">Ketua Umum: Dr. Ben Rahman</div>
+        <div class="box color2">Wakil Ketua: Dr. Endi Putro</div>
+        <div class="box color3">Sekretaris Jendral: Dr. Siti Cholifa</div>
+        <div class="box color4">Bendahara Umum: Dr. Herlawati</div>
+        <div class="box color5">Humas: Dr. Hanni</div>
+        <div class="box color6">Divisi Riset & Inovasi: Dr. Maria & Dr. Dian</div>
+        <div class="box color7">Div. Alumni: Dr. Suzanna</div>
+        <div class="box color8">Div. Pengmas: Dr. Andi Nugroho</div>
+        <div class="box color9">Div. Diklat: Dr. Indrajani</div>
+        <div class="box color10">Div. Industri: Dr. Ramadan & Dr. Baskoro</div>
+      </div>
+
+      <div class="row animate reverse">
+        <div class="box color2">Div. Gathering: Dr. Elda & Dr. Zulfany</div>
+        <div class="box color4">Div. Alumni: Dr. Suzanna</div>
+        <div class="box color6">Div. Pengmas: Dr. Andi Nugroho</div>
+        <div class="box color8">Div. Industri: Dr. Ramadan & Dr. Baskoro</div>
+        <div class="box color10">Ketua Umum: Dr. Ben Rahman</div>
+        <div class="box color1">Wakil Ketua: Dr. Endi Putro</div>
+        <div class="box color3">Sekretaris Jendral: Dr. Siti Cholifa</div>
+        <div class="box color5">Bendahara Umum: Dr. Herlawati</div>
+        <div class="box color7">Humas: Dr. Hanni</div>
+        <div class="box color9">Divisi Riset & Inovasi: Dr. Maria & Dr. Dian</div>
+      </div>
+
+      <div class="row animate">
+        <div class="box color6">Div. Pendidikan: Dr. Indrajani</div>
+        <div class="box color8">Div. Gathering: Dr. Elda & Dr. Zulfany</div>
+        <div class="box color1">Ketua Umum: Dr. Ben Rahman</div>
+        <div class="box color2">Wakil Ketua: Dr. Endi Putro</div>
+        <div class="box color3">Sekretaris Jendral: Dr. Siti Cholifa</div>
+        <div class="box color4">Bendahara Umum: Dr. Herlawati</div>
+        <div class="box color5">Div. Industri: Dr. Ramadan & Dr. Baskoro</div>
+        <div class="box color7">Div. Alumni: Dr. Suzanna</div>
+        <div class="box color9">Div. Pengmas: Dr. Andi Nugroho</div>
+        <div class="box color10">Humas: Dr. Hanni</div>
+      </div>
+
+      <div class="row animate reverse">
+        <div class="box color3">Div. Gathering: Dr. Elda & Dr. Zulfany</div>
+        <div class="box color5">Div. Industri: Dr. Ramadan & Dr. Baskoro</div>
+        <div class="box color7">Div. Pendidikan: Dr. Indrajani</div>
+        <div class="box color9">Div. Pengmas: Dr. Andi Nugroho</div>
+        <div class="box color1">Div. Alumni: Dr. Suzanna</div>
+        <div class="box color2">Div. Riset: Dr. Maria & Dr. Dian</div>
+        <div class="box color4">Humas: Dr. Hanni</div>
+        <div class="box color6">Ketua: Dr. Ben Rahman</div>
+        <div class="box color8">Wakil: Dr. Endi Putro</div>
+        <div class="box color10">Sekretaris: Dr. Siti Cholifa</div>
+      </div>
+
+      <div class="row animate">
+        <div class="box color5">Bendahara: Dr. Herlawati</div>
+        <div class="box color3">Div. Gathering: Dr. Elda & Dr. Zulfany</div>
+        <div class="box color1">Div. Pendidikan: Dr. Indrajani</div>
+        <div class="box color7">Div. Riset: Dr. Maria & Dr. Dian</div>
+        <div class="box color9">Div. Industri: Dr. Ramadan & Dr. Baskoro</div>
+        <div class="box color2">Div. Alumni: Dr. Suzanna</div>
+        <div class="box color4">Div. Pengmas: Dr. Andi Nugroho</div>
+        <div class="box color6">Humas: Dr. Hanni</div>
+        <div class="box color8">Ketua: Dr. Ben Rahman</div>
+        <div class="box color10">Wakil: Dr. Endi Putro</div>
+      </div>
+    </section>
+    <!-- END: Carousel -->
+
+    <main>
+        <p>Informasi di IKA DCS dibangun dalam lapisan yang terverifikasi, tervalidasi, dan tersharing, 
+        untuk menjamin keabsahan serta kualitas komunikasi antar alumni.</p>
+
+        <div class="circle">Tim Inti</div>
+        <div class="box">Pengurus</div>
+        <div class="box">Members</div>
+        <div class="box">All DCS</div>
+
+        <a href="struktur.html" class="structure-link">Lihat Struktur Lengkap Pengurus IKA DCS 2025–2028 →</a>
+    </main>
 </body>
 </html>
